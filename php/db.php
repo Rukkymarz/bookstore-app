@@ -1,10 +1,10 @@
 <?php
 
 function Createdb(){
-    $servername = "localhost";
-    $username = "root";
-    $password = "Admin123*";
-    $dbname = "bookstore";
+    $servername = "database-1";
+    $username = "admin";
+    $password = "ADMIN2035!";
+    $dbname = "centosdb";
 
     // create connection
     $con = mysqli_connect($servername, $username, $password);
